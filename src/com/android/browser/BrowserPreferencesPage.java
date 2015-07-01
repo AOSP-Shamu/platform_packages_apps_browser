@@ -43,6 +43,11 @@ public class BrowserPreferencesPage extends PreferenceActivity {
         }
     }
 
+    @Override
+     protected boolean isValidFragment(String fragmentName) {
+         return true;
+    }
+
     /**
      * Populate the activity with the top-level headers.
      */
